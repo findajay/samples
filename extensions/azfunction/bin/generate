@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+set -eo pipefail
+
+# 1. GET ARGS
+output_dir=$CNB_OUTPUT_DIR
+
+# 2. GENERATE run.Dockerfile
+cat >> "${output_dir}/run.Dockerfile" <<EOL
+FROM mcr.microsoft.com/azure-functions/dotnet-isolated:4-dotnet-isolated6.0
+EOL

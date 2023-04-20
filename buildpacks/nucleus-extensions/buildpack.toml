@@ -1,0 +1,14 @@
+# Buildpack API version
+api = "0.9"
+
+# Buildpack ID and metadata
+[buildpack]
+id = "nucleus-extensions"
+version = "0.0.1"
+name = "Nucleus Extensions Buildpack"
+homepage = "https://github.com/buildpacks/samples/tree/main/buildpacks/hello-extensions"
+description = "A simple buildpack that requires ironpdf and azfunction."
+
+# Stacks that the buildpack will work with
+[[stacks]]
+id = "*"

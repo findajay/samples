@@ -23,7 +23,7 @@ id = "samples/tree"
 version = "0.0.1"
 uri = "../../extensions/tree"
 
-[[extensions]]
+[[extensions]] 
 id = "samples/curl"
 version = "0.0.1"
 uri = "../../extensions/curl"

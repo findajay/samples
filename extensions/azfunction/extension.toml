@@ -1,0 +1,10 @@
+# Buildpack API version
+api = "0.9"
+
+# Extension ID and metadata
+[extension]
+id = "azfunction"
+version = "0.0.1"
+name = "Azure Function Extension"
+homepage = "https://github.com/buildpacks/samples/tree/main/extensions/curl"
+description = "A simple extension that switches the runtime base image to `mcr.microsoft.com/azure-functions/dotnet-isolated:4-dotnet-isolated6.0`"

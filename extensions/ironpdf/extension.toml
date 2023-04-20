@@ -1,0 +1,10 @@
+# Buildpack API version
+api = "0.9"
+
+# Extension ID and metadata
+[extension]
+id = "samples/ironpdf"
+version = "0.0.1"
+name = "Ironpdf Extension"
+homepage = "https://github.com/buildpacks/samples/tree/main/extensions/curl"
+description = "A simple extension that installs ironpdf dependency at build time"
