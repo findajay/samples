@@ -2,8 +2,8 @@
   "profiles": {
     "functionapp": {
       "commandName": "Project",
-      "commandLineArgs": "--port 7032",
-      "launchBrowser": false
+      "commandLineArgs": "--port 7244",
+      "nativeDebugging": false
     }
   }
 }

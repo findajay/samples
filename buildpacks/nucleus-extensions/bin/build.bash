@@ -1,7 +1,7 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 set -eo pipefail
 
-echo "---> Nucleus Extensions Buildpack"
+echo "---> Nucleus Extensions  Buildpack"
 
 #ironpdf --version
 

@@ -1,13 +1,10 @@
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 
-internal class Program
-{
-    private static void Main(string[] args)
-    {
-        var host = new HostBuilder()
+var host = new HostBuilder()
     .ConfigureFunctionsWorkerDefaults()
-    .Build();
 
-        host.Run();
-    }
-}
+                    .Build();
+
+
+host.Run();
